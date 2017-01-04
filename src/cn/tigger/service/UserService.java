@@ -9,10 +9,14 @@ import java.io.Serializable;
  */
 public class UserService {
 
+    private String username;
+
+    /**
+     * @return user
+     */
     public User getUserById(){
 
-        User user =new User();
+        return new User();
 
-        return user;
     }
 }
